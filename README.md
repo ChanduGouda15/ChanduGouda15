@@ -1,80 +1,24 @@
-# CAPTCHA Decoding
-A CAPTCHA (acronym for "Completely Automated Public Turing test to tell Computers
-and Humans Apart") is a type of challenge-response test used to determine whether or not a
-user providing the response is human. In this project, we used a deep neural network
-framework for CAPTCHA recognition. The core idea of the project is to learn a model that
-breaks image-based CAPTCHAs. We used convolutional neural networks and recurrent neural
-networks instead of the conventional methods of CAPTCHA breaking based on segmenting and
-recognizing a CAPTCHA. Our models consist of two convolutional layers to learn image
-features and a recurrent layer to output character sequence. We tried different configurations,
-including wide and narrow layers and deep and shallow networks. We synthetically generated a
-CAPTCHA dataset of varying complexity and used different libraries to avoid overfitting on one
-library. We trained on both fixed-and variable-length CAPTCHAs and were able to get accuracy
-levels of 99.8% and 80%, respectively. 
- 
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap1.jpg)
+# 💫 About Me:
+🔭 I’m a web Developer<br>
 
-## Dataset
-The dataset which is used here, is collected from Kaggle website. Here is the link of the dataset : https://www.kaggle.com/fournierp/captcha-version-2-images. The dataset contains CAPTCHA images. The images are **5 letter** words, and have noise applied (blur and a line). They are of size **200 x 50**. The file name is same as the image letters.
 
-## Goal
-The goal of this project is to create a deep learning model which will recognize the captcha letters.
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/chandu-cg15) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:chandugouda2022@gmail.com) 
 
-## Approach
-My approach is to train a **CNN** model for every letter that occurs in the **CAPTCHA** and use this model for evaluation. We will remove all noises (ie. smooth out the images and remove that lines) and then separate out each of the 5 letters in the image and feed each one to the model independently.
-**************************************************
-## What have I done?
-1. Importing all the required libraries. Check [`requirements.txt`](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/requirements.txt).
-2. Upload the dataset and the Jupyter Notebook file.
-3. Data Processing
-4. Data Wrangling
-5. Model Creation using CNN
-6. Checking accuracy
-7. Predictions
-8. Error Analysis
-9. Conclusion
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=ChanduGouda15&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=ChanduGouda15&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ChanduGouda15&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-***********************************************
-## Libraries used
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- Sklearn
-- Tensorflow
-- Keras
-- glob
-***********************************************
-## Data Visualization
-- **Plotting some CAPTCHAs**
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=ChanduGouda15&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap2.png)
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-- **Label Distribution in CAPTCHAs**
+---
+[![](https://visitcount.itsvg.in/api?id=ChanduGouda15&icon=0&color=0)](https://visitcount.itsvg.in)
 
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap3..png)
-
-- **Label distribution in test set**
-
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap4.png)
-********************************************
-## Model Visualization
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap5.png)
-******************************************
-## Recognitions 
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap6.png) ![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap7.png)
-*******************************************
-## Error Visualization
-![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap8.png) ![](https://github.com/abhisheks008/ML-ProjectKart/blob/patch-51/CAPTCHA%20Decoding/Images/cap9.png)
-*******************************************
-## Conclusion
-* Convolution Neural Network provides the luxury of detecting the images in a single model frame work.
-* Here we have deployed the CNN model successfully, and it is working perfectly, recognizing the CAPTCHAs correctly.
-* The model is having the accuracy of 0.88, macro average of 0.89 and weighted average of 0.88.
-* Using the Convolution Neural Network along with the SMOTE and ReduceLROnPlateau makes the model more accurate than the baseline model.
-* For me, it would be the best model to identify the CAPTCHA images and recognize them easily!
-* ***Convolution Neural Network with SMOTE and ReduceLROnPlateau*** is the best model to be fitted.
-**************************************
-## Author
-Code Contributed by, Abhishek Sharma, 2021 @abhisheks008 #LGMSOC21
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
